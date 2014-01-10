@@ -29,17 +29,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2b303b</string>
+				<string>#14161b</string>
 				<key>caret</key>
-				<string>#c0c5ce</string>
+				<string>#ffffff</string>
 				<key>foreground</key>
-				<string>#c0c5ce</string>
+				<string>#ced3dd</string>
 				<key>invisibles</key>
 				<string>#65737e</string>
 				<key>lineHighlight</key>
-				<string>#343d46</string>
+				<string>#1c2025</string>
 				<key>selection</key>
-				<string>#4f5b66</string>
+				<string>#272e33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -64,7 +64,7 @@
 				<string>#65737e</string>
 			</dict>
 		</dict>
-		<dict>
+		<!-- <dict>
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
@@ -72,9 +72,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c0c5ce</string>
+				<string>#bf616a</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>Delimiters</string>
@@ -105,7 +105,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b48ead</string>
+				<string>#a89163</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +127,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8fa1b3</string>
+				<string>#ebcb8b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,7 +138,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ebcb8b</string>
+				<string>#b48ead</string>
 			</dict>
 		</dict>
 		<dict>
@@ -174,7 +174,7 @@
 				<string>#b48ead</string>
 			</dict>
 		</dict>
-		<dict>
+		<!-- <dict>
 			<key>name</key>
 			<string>Support</string>
 			<key>scope</key>
@@ -184,7 +184,7 @@
 				<key>foreground</key>
 				<string>#96b5b4</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>Strings, Inherited Class</string>
@@ -244,7 +244,7 @@
 			<key>name</key>
 			<string>Tags</string>
 			<key>scope</key>
-			<string>entity.name.tag</string>
+			<string>meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -259,7 +259,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d08770</string>
+				<string>#bf616a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -503,6 +503,28 @@
 				<string>#2b303b</string>
 			</dict>
 		</dict>
+		<dict>
+      <key>name</key>
+      <string>ERB</string>
+      <key>scope</key>
+      <string>source.ruby.embedded, source.ruby.rails.embedded</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ab7967</string>
+      </dict>
+    </dict>
+		<dict>
+      <key>name</key>
+      <string>Symbol</string>
+      <key>scope</key>
+      <string>constant.other.symbol.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#828fb0</string>
+      </dict>
+    </dict>
 	</array>
 	<key>uuid</key>
 	<string>59c1e2f2-7b41-46f9-91f2-1b4c6f5866f7</string>
